@@ -1,0 +1,8 @@
+{
+  "name": "project-timer",
+  "version": "1.0.0",
+  "description": "Dashboard de contadores de proyectos con SQLite",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "better-sqlite3": "^11.10.0", "express": "^5.1.0" }
+}

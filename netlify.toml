@@ -1,0 +1,9 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+# Las rutas /api/projects y /api/projects/:id se definen en
+# netlify/functions/projects.mjs (export const config).

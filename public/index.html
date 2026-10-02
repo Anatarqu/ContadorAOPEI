@@ -2,12 +2,13 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Project Timer</title>
+<title>ContadorAOPEI · Project Timer</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="topbar"><div><div class="brand">PROJECT<span>TIMER</span></div><div class="subtitle">Gestión de proyectos y cuenta regresiva</div></div><button id="newBtn" class="btn primary">+ Nuevo proyecto</button></header>
 <main>
+<div id="modeBanner" class="banner hidden">Modo local: los datos se guardan solo en este navegador (no hay base de datos conectada).</div>
 <section class="stats"><div><b id="total">0</b><span>Total</span></div><div><b id="active">0</b><span>Activos</span></div><div><b id="urgent">0</b><span>Urgentes</span></div><div><b id="done">0</b><span>Completados</span></div></section>
 <section class="toolbar"><h2>Proyectos activos</h2><input id="search" placeholder="Buscar proyecto, responsable..." /></section>
 <section id="grid" class="grid"></section>

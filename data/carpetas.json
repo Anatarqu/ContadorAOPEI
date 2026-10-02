@@ -105,11 +105,11 @@
     "due_date": "2026-10-14",
     "priority": "Baja",
     "progress": 10,
-    "observations": "Alias Maecha, cabecilla de finanzas Bloque Occidental Jacobo Arenas GAOR Iván Mordisco, alias Café Gato, cabecilla Estructura Franco Benavides GAOR Iván Mordisco.\nPendiente Resultado.",
+    "observations": "Alias Maecha, cabecilla de finanzas Bloque Occidental Jacobo Arenas, alias Café Gato, cabecilla Estructura Franco Benavides GAOR Iván Mordisco.\nPendiente Resultado.\n\nOperación radicada con Armada",
     "stage": "radicada",
     "status": "active",
     "created_at": "2026-10-02T13:02:37.042Z",
-    "updated_at": "2026-10-02T13:02:37.042Z"
+    "updated_at": "2026-10-02T13:07:17.182Z"
   },
   {
     "id": 8,

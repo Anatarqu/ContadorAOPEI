@@ -110,5 +110,21 @@
     "status": "active",
     "created_at": "2026-10-02T13:02:37.042Z",
     "updated_at": "2026-10-02T13:02:37.042Z"
+  },
+  {
+    "id": 8,
+    "name": "OPERACIÓN SAETA",
+    "responsible": "Cofin 2",
+    "level": "III Nivel",
+    "value": "3.250.000.000",
+    "start_date": "2026-09-30",
+    "due_date": "2026-10-14",
+    "priority": "Baja",
+    "progress": 10,
+    "observations": "Alias Urías Perdomo o Cotiz, cabecilla Estructura Rodrigo Cadete y alias Geovanny Hernández, cabecilla Estructura Isaías Carvajal, Bloque Jorge Briceño Suárez.\nPendiente Resultado",
+    "stage": "radicada",
+    "status": "active",
+    "created_at": "2026-10-02T13:06:25.927Z",
+    "updated_at": "2026-10-02T13:06:25.927Z"
   }
 ]

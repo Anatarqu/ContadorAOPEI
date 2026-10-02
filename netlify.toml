@@ -5,5 +5,5 @@
 [functions]
   node_bundler = "esbuild"
 
-# Las rutas /api/projects y /api/projects/:id se definen en
-# netlify/functions/projects.mjs (export const config).
+# La ruta /api/carpetas se define en netlify/functions/carpetas.mjs.
+# Los datos se guardan en GitHub, en la rama "datos" (archivo data/carpetas.json).

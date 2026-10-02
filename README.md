@@ -1,67 +1,48 @@
-# ContadorAOPEI — Microgerencia y Seguimiento
+# Recompensas GASOP
 
-Dashboard personal para gestionar proyectos, responsables, nivel, valor, observaciones, avance y cuenta regresiva. El contador muestra **solo días y horas**.
+Dashboard para gestionar carpetas con responsable, nivel, valor, fechas (solo día), prioridad, avance, observaciones y **estado**: Radicada, Consolidada o Por pagar. El contador muestra los días y horas que faltan hasta el final de la fecha límite.
 
-## Arquitectura
+## Dónde se guardan los datos
 
-- Frontend: HTML, CSS y JavaScript.
-- Desarrollo local: Express + SQLite para funcionar inmediatamente.
-- Producción Netlify: Netlify Functions + PostgreSQL.
-- Base de datos de producción: Netlify Database mediante `NETLIFY_DB_URL`.
+En el **repositorio de GitHub**, como el archivo `data/carpetas.json` en la rama **`datos`**. Cada cambio (crear, editar, eliminar) queda como un commit, así que tienes historial completo y puedes ver o restaurar versiones anteriores desde GitHub.
 
-Netlify puede conectar el repositorio de GitHub y desplegar automáticamente cada push. Las Functions usan variables de entorno para credenciales y configuración.
+Se usa una rama separada y los commits llevan `[skip netlify]` para que guardar datos **no** dispare un nuevo despliegue.
+
+## Configuración (una sola vez)
+
+### 1. Crear el token de GitHub
+1. GitHub → foto de perfil → **Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token**.
+2. *Repository access*: **Only select repositories** → `ContadorAOPEI`.
+3. *Permissions → Repository permissions → Contents*: **Read and write**.
+4. Genera el token y cópialo (solo se muestra una vez).
+
+### 2. Configurarlo en Netlify
+1. En tu proyecto de Netlify: **Project configuration → Environment variables → Add a variable**.
+2. Clave: `GITHUB_TOKEN` · Valor: el token copiado.
+3. (Opcional) `GITHUB_REPO`, `GITHUB_BRANCH`, `GITHUB_FILE` si quieres cambiar los valores por defecto.
+4. **Deploys → Trigger deploy → Deploy site**.
+
+La primera vez que guardes una carpeta se crea automáticamente la rama `datos` y el archivo.
+
+## Despliegue
+El proyecto se despliega desde GitHub (Netlify → Import an existing project). `netlify.toml` ya define la carpeta publicada y las funciones.
+
+Si falta el token o se sube solo la carpeta `public`, la app funciona en **modo local** (datos solo en el navegador) y lo indica con un aviso amarillo.
 
 ## Ejecutar localmente
-
 ```bash
 npm install
 npm start
 ```
-
-Abre `http://localhost:3000`.
-
-La primera ejecución crea `data.db` y carga tres proyectos de ejemplo. No necesitas configurar una base de datos para probar la aplicación localmente.
-
-## Desplegar en Netlify
-
-### Opción A — Prueba rápida (arrastrar carpeta)
-1. Entra a https://app.netlify.com/drop
-2. Arrastra **la carpeta `public`** (no la carpeta raíz del proyecto).
-3. La app funciona en **modo local**: los datos se guardan en el navegador (localStorage). Verás un aviso amarillo indicándolo.
-
-> Arrastrar carpetas no despliega Functions, por eso se usa el modo local.
-
-### Opción B — Con base de datos (GitHub o Netlify CLI)
-1. Sube el proyecto completo a GitHub e impórtalo en Netlify (**Add new project → Import an existing project**), o usa `npx netlify deploy --prod` desde la carpeta raíz.
-2. En Netlify crea la base de datos (**Extensions / Netlify DB**, Neon PostgreSQL). Esto crea la variable `NETLIFY_DATABASE_URL`. También se acepta `DATABASE_URL` si usas otro PostgreSQL.
-3. Haz un nuevo deploy. La API `/api/projects` crea la tabla automáticamente y carga los datos de ejemplo.
-
-Si la base de datos no está configurada, la app pasa sola a modo local en vez de fallar.
-
-## Datos almacenados
-
-Cada proyecto contiene:
-
-- Nombre
-- Responsable
-- Nivel (manual)
-- Valor (manual)
-- Fecha de inicio
-- Fecha límite
-- Prioridad
-- Avance
-- Observaciones
-- Estado
-- Fechas de creación/actualización
+Abre `http://localhost:3000`. Localmente los datos se guardan en `data/carpetas.local.json` (no se sube a GitHub).
 
 ## API
-
-- `GET /api/projects`
-- `GET /api/projects/:id`
-- `POST /api/projects`
-- `PUT /api/projects/:id`
-- `DELETE /api/projects/:id`
+- `GET /api/carpetas`
+- `GET /api/carpetas/:id`
+- `POST /api/carpetas`
+- `PUT /api/carpetas/:id`
+- `DELETE /api/carpetas/:id`
 
 ## Seguridad
-
-No guardes credenciales de base de datos en GitHub. Configúralas como variables de entorno de Netlify.
+- El token solo vive en Netlify; nunca lo pongas en el código.
+- Cualquiera que tenga el enlace del sitio puede ver y editar las carpetas. Si necesitas restringirlo, Netlify permite proteger el sitio con contraseña (planes de pago) o se puede agregar un inicio de sesión.

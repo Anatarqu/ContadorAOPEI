@@ -53,7 +53,7 @@
     "responsible": "Cofin 4",
     "level": "IV Nivel",
     "value": "800.000.000",
-    "start_date": "2026-09-17",
+    "start_date": "2026-10-05",
     "due_date": "2026-10-14",
     "priority": "Crítica",
     "progress": 0,
@@ -61,7 +61,7 @@
     "stage": "radicada",
     "status": "active",
     "created_at": "2026-10-02T12:49:18.462Z",
-    "updated_at": "2026-10-05T17:54:18.212Z"
+    "updated_at": "2026-10-05T17:54:48.293Z"
   },
   {
     "id": 5,

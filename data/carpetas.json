@@ -126,5 +126,21 @@
     "status": "active",
     "created_at": "2026-10-02T13:06:25.927Z",
     "updated_at": "2026-10-02T13:06:25.927Z"
+  },
+  {
+    "id": 9,
+    "name": "OPERACIÓN AMANECER",
+    "responsible": "COFIN 2",
+    "level": "V NIVEL",
+    "value": "85.000.000",
+    "start_date": "2026-10-05",
+    "due_date": "2026-10-14",
+    "priority": "Baja",
+    "progress": 10,
+    "observations": "Alias Dennis Suárez o la Morocha, cabecilla pseudo política Estructura Rodrigo Cadete - BJSB",
+    "stage": "radicada",
+    "status": "active",
+    "created_at": "2026-10-05T17:57:26.423Z",
+    "updated_at": "2026-10-05T17:57:26.423Z"
   }
 ]

@@ -80,22 +80,6 @@
     "updated_at": "2026-10-16T02:06:24.513Z"
   },
   {
-    "id": 7,
-    "name": "OPERACIÓN EOS",
-    "responsible": "Cofin 4",
-    "level": "III y IV NIVEL",
-    "value": "2.360.000.000",
-    "start_date": "2026-09-28",
-    "due_date": "2026-10-14",
-    "priority": "Baja",
-    "progress": 10,
-    "observations": "Alias Maecha, cabecilla de finanzas Bloque Occidental Jacobo Arenas, alias Café Gato, cabecilla Estructura Franco Benavides GAOR Iván Mordisco.\nPendiente Resultado.\n\nOperación radicada con Armada",
-    "stage": "radicada",
-    "status": "active",
-    "created_at": "2026-10-02T13:02:37.042Z",
-    "updated_at": "2026-10-02T13:07:17.182Z"
-  },
-  {
     "id": 8,
     "name": "OPERACIÓN SAETA",
     "responsible": "Cofin 2",

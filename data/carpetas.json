@@ -165,7 +165,7 @@
     "responsible": "LANZA ESCORPIÓN NEGRO C1",
     "level": "I y II NIVEL",
     "value": "4.420.000.000",
-    "start_date": "2026-10-08",
+    "start_date": "2026-10-15",
     "due_date": "2026-11-05",
     "priority": "Baja",
     "progress": 10,
@@ -173,6 +173,6 @@
     "stage": "radicada",
     "status": "active",
     "created_at": "2026-10-09T15:23:39.133Z",
-    "updated_at": "2026-10-16T00:52:41.338Z"
+    "updated_at": "2026-10-16T00:56:14.867Z"
   }
 ]

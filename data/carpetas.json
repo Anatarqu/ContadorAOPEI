@@ -65,7 +65,7 @@
   },
   {
     "id": 6,
-    "name": "OPERACIÓN GÉNESIS",
+    "name": "OPERACIÓN GÉNESIS primera radicación",
     "responsible": "Graos 1",
     "level": "III Nivel",
     "value": "1.800.000.000",
@@ -77,7 +77,7 @@
     "stage": "radicada",
     "status": "active",
     "created_at": "2026-10-02T12:58:33.023Z",
-    "updated_at": "2026-10-21T21:00:34.305Z"
+    "updated_at": "2026-10-21T21:16:27.257Z"
   },
   {
     "id": 10,

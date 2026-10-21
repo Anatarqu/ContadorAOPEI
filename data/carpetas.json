@@ -158,5 +158,21 @@
     "status": "active",
     "created_at": "2026-10-21T21:09:04.590Z",
     "updated_at": "2026-10-21T21:10:08.565Z"
+  },
+  {
+    "id": 15,
+    "name": "OPERACIÓN OFIR",
+    "responsible": "COFIN 6 TC ARTUNDUAGA",
+    "level": "IV",
+    "value": "500.000.000",
+    "start_date": "2026-10-19",
+    "due_date": "2026-11-18",
+    "priority": "Media",
+    "progress": 0,
+    "observations": "Hamilton Mosquera, alias Negro Perea Cabecilla su estructura Manuel Alexander Ariza Rosario de la Estructura Roberto Vargas Gutiérrez del Grupo Armado Organizado Clan del Golfo",
+    "stage": "radicada",
+    "status": "active",
+    "created_at": "2026-10-21T21:14:06.470Z",
+    "updated_at": "2026-10-21T21:14:06.470Z"
   }
 ]

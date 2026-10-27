@@ -190,5 +190,21 @@
     "status": "active",
     "created_at": "2026-10-21T21:20:49.031Z",
     "updated_at": "2026-10-21T21:20:49.031Z"
+  },
+  {
+    "id": 17,
+    "name": "ODIN II",
+    "responsible": "ESCORPION NEGRO C1",
+    "level": "IV",
+    "value": "447.200.000",
+    "start_date": "2026-10-22",
+    "due_date": "2026-11-20",
+    "priority": "Media",
+    "progress": 0,
+    "observations": "José Gabriel Henao Galvis alias Braulio cabecilla Militar Estructura 44 Antonio Ricaurte del Bloque Amanzonas",
+    "stage": "radicada",
+    "status": "active",
+    "created_at": "2026-10-27T16:09:07.176Z",
+    "updated_at": "2026-10-27T16:09:07.176Z"
   }
 ]

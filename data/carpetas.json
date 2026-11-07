@@ -177,19 +177,19 @@
   },
   {
     "id": 16,
-    "name": "OPERACIÓN GENESIS segunda radicación",
+    "name": "OPERACIÓN GENESIS",
     "responsible": "GRAOS I CT. JUAN PABLO MOLINA SILVA",
-    "level": "III",
-    "value": "1.800.000",
+    "level": "III NIVEL",
+    "value": "1.800.000.000",
     "start_date": "2026-10-20",
     "due_date": "2026-11-13",
     "priority": "Media",
-    "progress": 0,
-    "observations": "Deneil Enrique Acosta Ballesteros, alias Martín 0 R20 Cabecilla Principal Estructura Jairo de Jesús Durango Restrepo del Grupo Armado Organizado Clan del Gofo",
+    "progress": 10,
+    "observations": "Deneil Enrique Acosta Ballesteros, alias Martín 0 R20 Cabecilla Principal Estructura Jairo de Jesús Durango Restrepo del Grupo Armado Organizado Clan del Gofo.\n\nDGAR010161",
     "stage": "radicada",
     "status": "active",
     "created_at": "2026-10-21T21:20:49.031Z",
-    "updated_at": "2026-10-21T21:20:49.031Z"
+    "updated_at": "2026-11-07T17:01:24.541Z"
   },
   {
     "id": 17,

@@ -130,7 +130,7 @@
   {
     "id": 13,
     "name": "OPERACIÓN AMANECER",
-    "responsible": "COFIN2 CT. Marcelo",
+    "responsible": "COFIN2 CT. MARCELO",
     "level": "V NIVEL",
     "value": "85.000.000",
     "start_date": "2026-10-06",
@@ -141,7 +141,7 @@
     "stage": "consolidada",
     "status": "active",
     "created_at": "2026-10-17T03:03:43.261Z",
-    "updated_at": "2026-11-07T15:51:05.448Z"
+    "updated_at": "2026-11-07T15:52:35.765Z"
   },
   {
     "id": 14,

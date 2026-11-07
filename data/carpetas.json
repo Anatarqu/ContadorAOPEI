@@ -196,15 +196,15 @@
     "name": "OP. NEPTUNO",
     "responsible": "COFIN4 - TC WILMAN MOLINA",
     "level": "IV - VI NIVEL",
-    "value": "647",
+    "value": "647.500.000",
     "start_date": "2026-11-07",
     "due_date": "2026-12-05",
     "priority": "Media",
     "progress": 10,
-    "observations": "",
+    "observations": "Alias Félix u Orfilio, cuarto cabecilla del Frente José María Becerra del ELN, 11 integrantes, 12 fusiles y 12 pistolas.\n\nDGAR7189",
     "stage": "radicada",
     "status": "active",
     "created_at": "2026-11-07T17:28:38.435Z",
-    "updated_at": "2026-11-07T17:28:38.435Z"
+    "updated_at": "2026-11-07T19:11:00.306Z"
   }
 ]

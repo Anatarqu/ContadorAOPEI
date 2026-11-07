@@ -190,5 +190,21 @@
     "status": "active",
     "created_at": "2026-10-27T16:09:07.176Z",
     "updated_at": "2026-11-07T16:59:14.100Z"
+  },
+  {
+    "id": 18,
+    "name": "OP. NEPTUNO",
+    "responsible": "COFIN4 - TC WILMAN MOLINA",
+    "level": "IV - VI NIVEL",
+    "value": "647",
+    "start_date": "2026-11-07",
+    "due_date": "2026-12-05",
+    "priority": "Media",
+    "progress": 10,
+    "observations": "",
+    "stage": "radicada",
+    "status": "active",
+    "created_at": "2026-11-07T17:28:38.435Z",
+    "updated_at": "2026-11-07T17:28:38.435Z"
   }
 ]

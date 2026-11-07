@@ -130,18 +130,18 @@
   {
     "id": 13,
     "name": "OPERACIÓN AMANECER",
-    "responsible": "COFIN2",
+    "responsible": "COFIN2 CT. Marcelo",
     "level": "V NIVEL",
     "value": "85.000.000",
     "start_date": "2026-10-06",
     "due_date": "2026-11-20",
     "priority": "Media",
-    "progress": 10,
-    "observations": "Alias Dennis o la Morocha, cabecilla pseudo política de la Estructura Rodrigo Cadete\n\nBloque Jorge Suárez Briceño.",
+    "progress": 60,
+    "observations": "Alias Dennis o la Morocha, cabecilla pseudo política de la Estructura Rodrigo Cadete\n\nBloque Jorge Suárez Briceño.\n\nFH DGAR010418",
     "stage": "consolidada",
     "status": "active",
     "created_at": "2026-10-17T03:03:43.261Z",
-    "updated_at": "2026-10-17T03:03:43.261Z"
+    "updated_at": "2026-11-07T15:51:05.448Z"
   },
   {
     "id": 14,

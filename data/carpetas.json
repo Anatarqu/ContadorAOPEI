@@ -34,18 +34,18 @@
   {
     "id": 3,
     "name": "OPERACIÓN ODIN",
-    "responsible": "Lanza Escorpión Negro",
+    "responsible": "Lanza Escorpión Negro - MY LOAIZA",
     "level": "II Nivel - IV Nivel",
-    "value": "4.400.000.000",
+    "value": "3.520.000.000",
     "start_date": "2026-10-15",
     "due_date": "2026-11-13",
     "priority": "Baja",
     "progress": 10,
-    "observations": "Alias Alonso 45, cabecilla Bloque Amazonas y alias Jessica cabecilla finanzas Bloque Amazonas - pendiente resultado.\n\nFuente DIPOL 3.520.000.000\nFuente Armada 880.000.000",
+    "observations": "Alias Alonso 45, cabecilla Bloque Amazonas y alias Jessica cabecilla finanzas Bloque Amazonas - pendiente resultado.\n\n\n\nFH DIPOL 80% $3.520.000.000\nFH Armada 20% $880.000.000",
     "stage": "radicada",
     "status": "active",
     "created_at": "2026-10-02T12:42:18.111Z",
-    "updated_at": "2026-10-16T02:03:23.150Z"
+    "updated_at": "2026-11-07T16:06:34.107Z"
   },
   {
     "id": 5,

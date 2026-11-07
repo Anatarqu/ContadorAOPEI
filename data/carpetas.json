@@ -82,18 +82,18 @@
   {
     "id": 10,
     "name": "OPERACIÓN RENACER DE OCCIDENTE",
-    "responsible": "Lanza Dragón Rojo",
-    "level": "II Nivel",
+    "responsible": "Lanza Dragón Rojo - CT. PACHECO",
+    "level": "II NIVEL",
     "value": "1.600.000.000",
     "start_date": "2026-10-07",
     "due_date": "2026-12-31",
     "priority": "Media",
     "progress": 80,
-    "observations": "Alias Santiago, cabecilla del Frente de Guerra Occidental ELN, carpeta devuelta por DIJIN, sin recuperación de cuerpo, pendiente validación D1 para conversión a pago de información - 1 fuente humana Armada",
-    "stage": "consolidada",
+    "observations": "Alias Santiago, cabecilla del Frente de Guerra Occidental ELN, carpeta devuelta por DIJIN, sin recuperación de cuerpo.\n\nSe realizó entrega de expediente a DIJIN, para conversión a pago de información, pendiente inició de comites.",
+    "stage": "por_pagar",
     "status": "active",
     "created_at": "2026-10-07T12:41:27.748Z",
-    "updated_at": "2026-10-07T12:41:27.748Z"
+    "updated_at": "2026-11-07T15:57:01.347Z"
   },
   {
     "id": 11,

@@ -64,22 +64,6 @@
     "updated_at": "2026-11-07T15:57:01.347Z"
   },
   {
-    "id": 12,
-    "name": "OPERACIÓN OMAHA",
-    "responsible": "COFIN 2 - CT. HERNANDO LOZADA",
-    "level": "IV y V NIVEL",
-    "value": "700.000.000",
-    "start_date": "2026-10-15",
-    "due_date": "2026-11-13",
-    "priority": "Media",
-    "progress": 10,
-    "observations": "Alias Ciro, cabecilla pseudopolitico Estructura Raúl Reyes, alias Jorge o Marlon Puyo, cabecilla comisión Estructura Raúl Reyes y alias Cesar Guevara, cabecilla de comisión de finanzas de la Estructura Raúl Reyes.\n\nDGAR8971",
-    "stage": "radicada",
-    "status": "active",
-    "created_at": "2026-10-16T21:12:32.192Z",
-    "updated_at": "2026-11-07T16:12:50.459Z"
-  },
-  {
     "id": 13,
     "name": "OPERACIÓN AMANECER",
     "responsible": "COFIN2 CT. MARCELO",

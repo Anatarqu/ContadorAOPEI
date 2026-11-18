@@ -38,14 +38,14 @@
     "level": "IV NIVEL",
     "value": "550.000.000",
     "start_date": "2026-09-27",
-    "due_date": "2026-11-10",
+    "due_date": "2026-11-25",
     "priority": "Media",
     "progress": 30,
     "observations": "Alias Robinson Gutiérrez, cabecilla Político, Estructura Teófilo Forero Castro, Segunda Marquetalia.\n\nExpediente en consolidación",
     "stage": "consolidada",
     "status": "active",
     "created_at": "2026-10-02T12:55:09.090Z",
-    "updated_at": "2026-11-07T15:52:16.014Z"
+    "updated_at": "2026-11-18T23:57:12.816Z"
   },
   {
     "id": 10,

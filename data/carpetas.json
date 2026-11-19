@@ -190,5 +190,21 @@
     "status": "active",
     "created_at": "2026-11-11T00:23:39.419Z",
     "updated_at": "2026-11-18T23:53:29.783Z"
+  },
+  {
+    "id": 21,
+    "name": "OP. NICODEMO",
+    "responsible": "C4. TC. WILMAN MOLINA",
+    "level": "IV-VI NIVEL",
+    "value": "1.075.000.000",
+    "start_date": "2026-11-18",
+    "due_date": "2026-12-16",
+    "priority": "Media",
+    "progress": 10,
+    "observations": "Soraya Canga alias Bertha o Lina, Jonatan Ortiz Lerma alias Jhon Jairo, primer y segundo cabecilla del Frente Luis Carlos Cardenas del ELN, 12 integrantes, 14 fusiles y 14 pistolas.\n\nFH DGAR7189",
+    "stage": "radicada",
+    "status": "active",
+    "created_at": "2026-11-19T00:08:26.868Z",
+    "updated_at": "2026-11-19T00:08:26.868Z"
   }
 ]
